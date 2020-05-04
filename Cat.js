@@ -22,3 +22,4 @@ tom.eat(mickey);
 
 console.log(tom);
 
+module.exports = Cat;
