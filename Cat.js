@@ -8,12 +8,4 @@ Cat.prototype.eat = function(mouse) {
 	mouse.die();
 };
 
-var tom = new Cat();
-
-var mickey = new Mouse('mickey');
-
-tom.eat(mickey);
-
-console.log(tom);
-
 module.exports = Cat;

@@ -14,5 +14,45 @@ This project is just a demo how to use git
 // staging area file màu xanh, là đc add để commit git add
 // git repository // lưu thay đổi của các commit : git log 
 
-// git checkout, git restore 
-// git reset, git restore --staged
+// git checkout--file <-> git restore xóa đi những thay đổi của file 
+// git reset <-> git restore --staged đưa từ trạng thái đã add về chưa add
+// từ staging area về working directory
+
+// git checkout -b  <branch> (branching): tạo nhánh và chuyển về nhánh đó
+// git checkout <branch> chuyển về nhánh	// git branch xem đang ở nhánh nào
+// git merge // ghép nhánh 
+A <----B
+
+git checkout A
+git merge B
+
+master <--- feature/dog-class 
+// git branch -D <branch> xóa đi
+
+
+// git reset --sort <to_commit> // đưa commit về dạng git add (staging area )
+nghĩa là mở cái đã commit 
+// git reset -- mixed <to_commit>
+// đưa commit về dạng working directory
+// git reset --hard <to_commit> xóa hẳn commit 
+// ctrl Z để trở về
+
+
+// git revert <commit> 
+// dùng khi muốn bỏ commit bằng cách tạo ra commit mới tên revert 
+// nguy hiểm 	
+
+// .gitignore // từ chối 1 cái gì đó
+// node sẽ check file .gitignore
+// nên ignore những file chưa commit
+// thường sẽ bỏ node_modules vì nó nặng
+
+
+// npm install --save thì sẽ lưu vào file package.json khi cài lại chỉ cần npm install
+
+
+
+
+
+
+
