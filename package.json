@@ -1,0 +1,14 @@
+{
+  "name": "1-commit",
+  "version": "1.0.0",
+  "description": "// git init\r // git status check \r // git add thêm vào trc khi commit\r // git commit -m đóng hộp",
+  "main": "Cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
