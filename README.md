@@ -70,6 +70,9 @@ nghĩa là mở cái đã commit
 
 // google "git ssh"
 
+//git clone tải code về
+// git pull xem những thay đổi 
+
 
 
 
