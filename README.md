@@ -61,18 +61,24 @@ nghĩa là mở cái đã commit
 // git push -u origin master : lần đầu tải code 
  //git push
 
+
 // luu ttin dang nhap 
 // git credential
 // git config --global credential.helper store
 // not recommend (/.git-credentials)
-
 // get config --global credential.helper "cache--timeout=18000"
-
 // google "git ssh"
 
 //git clone tải code về
 // git pull xem những thay đổi 
 
-// push a branch
+// Push a branch
+// Pull request
+// 1. git checkout -b <feature_branch>
+// 2. git push origin <branch>
+// 3. create a pull request on Github
+// 4. review code
+// 5. Merge to master 
+// $ git push origin feature/horse-class
 
-
+// 4.review code 
