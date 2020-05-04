@@ -5,8 +5,6 @@ function Mouse(name) {
 
 Mouse.prototype.die = function() {
 	this.isLive = false;
-}
-
-
+};
 
 module.exports = Mouse;
