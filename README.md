@@ -73,6 +73,6 @@ nghĩa là mở cái đã commit
 //git clone tải code về
 // git pull xem những thay đổi 
 
-
+// push a branch
 
 
