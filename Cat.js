@@ -2,16 +2,10 @@ function Cat() {
 	this.stomath = [];
 };
 
-function Mouse(name) {
-	this.name = name;
-	this.isLive = true; 
-};
-
-
 
 Cat.prototype.eat = function(mouse) {
 	this.stomath.push(mouse);
-	mouse.isLive = false;
+	mouse.die();
 };
 
 var tom = new Cat();
