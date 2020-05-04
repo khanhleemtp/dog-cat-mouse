@@ -51,7 +51,24 @@ nghĩa là mở cái đã commit
 // npm install --save thì sẽ lưu vào file package.json khi cài lại chỉ cần npm install
 
 
+// github
 
+// len git tao thu muc 
+// $ git remote add origin https://github.com/khanhleemtp/dog-cat-mouse.git
+
+
+//git remote -v xem link tải lên 
+// git push -u origin master : lần đầu tải code 
+ //git push
+
+// luu ttin dang nhap 
+// git credential
+// git config --global credential.helper store
+// not recommend (/.git-credentials)
+
+// get config --global credential.helper "cache--timeout=18000"
+
+// google "git ssh"
 
 
 
